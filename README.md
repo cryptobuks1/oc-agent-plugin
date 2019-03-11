@@ -5,7 +5,7 @@ A desktop/mobile user agent parser for OctoberCMS.
 This plugin is a wrapper for [jenssegers/agent](https://github.com/jenssegers/agent) package. It provides a twig markup tag for the Jenssegers\Agent\Agent class.
 
 ### Usage
-This plugin uses Laravel's package discovery feature to register the Service Provider and Alias for required for the jenssegers/agent package. Make sure that `php artisan package:discover` has been run.
+This plugin uses Laravel's package discovery feature to register the Service Provider and Alias for the required jenssegers/agent package. Make sure that `php artisan package:discover` has been run.
 
 #### Magic is-method
 ```twig
