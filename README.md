@@ -22,7 +22,7 @@ This plugin uses Laravel's package discovery feature to register the Service Pro
 
 #### Accept languages
 ```twig
-{% if agent('languages') == 'en' %}
+{% if 'en-gb' in agent('languages') %}
 ```
 
 #### Device name
