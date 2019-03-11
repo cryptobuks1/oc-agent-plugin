@@ -28,6 +28,4 @@ class Plugin extends PluginBase
             ],
         ];
     }
-
-
 }
