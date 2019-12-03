@@ -11,10 +11,10 @@ class Plugin extends PluginBase
     public function pluginDetails(): array
     {
         return [
-            'name'        => 'Agent',
+            'name' => 'Agent',
             'description' => 'A desktop/mobile user agent parser for OctoberCMS.',
-            'author'      => 'Damian Lewis',
-            'icon'        => 'icon-search',
+            'author' => 'Damian Lewis',
+            'icon' => 'icon-desktop',
         ];
     }
 
